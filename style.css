@@ -3,19 +3,21 @@
 }
 
 @media screen and (max-width: 576px) {
-    .my-sm-device{
-        display: flex;
+     .mama{
         flex-direction: column;
-        align-items: center;
-    }
-    .mobile-img-bhai{
+        width: 440px;
+        justify-content: center;
+        margin: 0 auto;
+     }
+     .mama-pic{
+
+     }
+     .mama-pic img{
         width: 100%;
-        height: 300px;
-    }
-    .mobile-img-bhai img{
-        width: 100%;
-        height: 100%;
-    }
+     }
+     .mama-descrip{
+        padding: 20px 10px;
+     }
 }
  
 
