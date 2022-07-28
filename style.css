@@ -2,6 +2,7 @@
     filter: brightness(60%);
 }
 
+/* small device */
 @media screen and (max-width: 576px) {
      .mama{
         flex-direction: column;
@@ -9,15 +10,28 @@
         justify-content: center;
         margin: 0 auto;
      }
-     .mama-pic{
-
-     }
      .mama-pic img{
         width: 100%;
      }
      .mama-descrip{
         padding: 20px 10px;
      }
+     .hidden-buton-mama{
+      display: none;
+     }
+     .hidden-buton-mama-sm{
+      display: block !important;
+     }
+}
+
+/* medium devive */
+@media screen and (min-width: 578px) and (max-width: 991px) {
+   .hidden-buton-mama{
+      display: none;
+   }
+   .hidden-buton-mama-sm{
+      display: block !important;
+   }
 }
  
 
