@@ -1,6 +1,10 @@
 .medam-apa{
     filter: brightness(60%);
 }
+.fa-star{
+   color: gold;
+   
+ }
 /* .elarning-opaci{
    filter: brightness(90%);
 } */
@@ -35,6 +39,12 @@
      .student-title{
       text-align: center;
      }
+     .rivew-student{
+      flex-direction: column;
+     }
+     .feedback-view-btn{
+      display: block !important;
+     }
 }
 
 /* medium devive */
@@ -50,6 +60,12 @@
      }
      .students-view-btn{
       visibility: hidden;
+     }
+     .rivew-student{
+      flex-direction: column;
+     }
+     .feedback-view-btn{
+      display: block !important;
      }
 }
  
