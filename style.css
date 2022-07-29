@@ -23,12 +23,6 @@
      .mama-descrip{
         padding: 20px 10px;
      }
-     .hidden-buton-mama{
-      display: none;
-     }
-     .hidden-buton-mama-sm{
-      display: block !important;
-     }
      .join-mama{
       flex-direction: column;
      }
@@ -52,12 +46,6 @@
 
 /* medium devive */
 @media screen and (min-width: 578px) and (max-width: 991px) {
-   .hidden-buton-mama{
-      display: none;
-   }
-   .hidden-buton-mama-sm{
-      display: block !important;
-   }
    .join-mama{
       flex-direction: column;
      }
