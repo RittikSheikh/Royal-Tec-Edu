@@ -1,6 +1,9 @@
 .medam-apa{
     filter: brightness(60%);
 }
+/* .elarning-opaci{
+   filter: brightness(90%);
+} */
 
 /* small device */
 @media screen and (max-width: 576px) {
@@ -22,6 +25,13 @@
      .hidden-buton-mama-sm{
       display: block !important;
      }
+     .join-mama{
+      flex-direction: column;
+     }
+     .join-mama-des{
+      width: 100%;
+      padding: 0%;
+     }
 }
 
 /* medium devive */
@@ -32,6 +42,9 @@
    .hidden-buton-mama-sm{
       display: block !important;
    }
+   .join-mama{
+      flex-direction: column;
+     }
 }
  
 
