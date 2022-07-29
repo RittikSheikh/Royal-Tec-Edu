@@ -45,6 +45,9 @@
      .feedback-view-btn{
       display: block !important;
      }
+     .companies{
+      visibility: hidden;
+     }
 }
 
 /* medium devive */
@@ -66,6 +69,9 @@
      }
      .feedback-view-btn{
       display: block !important;
+     }
+     .companies{
+      visibility: hidden;
      }
 }
  
